@@ -19,11 +19,13 @@ Setup DBMarlin server
     netstat -na | grep LISTEN | grep 9070
   
   2. Crear usuario y grupo dbmarlin
-  
+
+  ```
      useradd dbmarlin
      mkdir /opt/dbmarlin
      chown -R dbmarlin:dbmarlin /opt/dbmarlin
-  
+  ```
+
   3. Descargar instalador desde la web https://download.dbmarlin.com
 
 
